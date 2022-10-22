@@ -30,6 +30,7 @@ import { PopupsComponent } from './comps/popups/popups.component';
 import { ProgressBarComponent } from './comps/progress-bar/progress-bar.component';
 import { SpinnerComponent } from './comps/spinner/spinner.component';
 import { TableComponent } from './comps/table/table.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { TableComponent } from './comps/table/table.component';
     PopupsComponent,
     ProgressBarComponent,
     SpinnerComponent,
-    TableComponent
+    TableComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
