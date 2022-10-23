@@ -1,3 +1,16 @@
 nav {
-    display: block;
+  display: block;
+  height: 40px;
+  border-bottom: black solid 2px;
+
+  .nav-item {
+    color: purple;
+    border-right: black solid 2px;
+    margin: 2rem;
+    text-align: left;
+  }
+
+  a {
+    font-size: 25px;
+  }
 }
