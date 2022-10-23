@@ -24,3 +24,9 @@ hr {
 img {
   max-width: 100%;
 }
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
