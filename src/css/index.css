@@ -42,3 +42,7 @@ img {
 .card .card-body a {
   text-decoration: underline;
 }
+
+nav {
+  display: block;
+}
