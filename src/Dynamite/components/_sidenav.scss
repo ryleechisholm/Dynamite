@@ -1,0 +1,15 @@
+.side-bar {
+  height: 100%;
+  width: 4em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: $nav-bar-height;
+  overflow-x: hidden;
+  background-color: yellow;
+  a {
+    padding: .5em .5em .5em 2em;
+    text-decoration: none;
+    display: block;
+  }
+}
