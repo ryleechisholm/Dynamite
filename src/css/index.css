@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Poppins;
+  margin-top: 2em;
 }
 
 ul {
@@ -51,15 +51,32 @@ img {
 
 nav {
   display: block;
-  height: 40px;
+  height: 2em;
   border-bottom: black solid 2px;
   background-color: white;
+  margin: 0;
 }
 nav .nav-item {
   color: purple;
   border-right: black solid 2px;
-  margin: 2rem;
+  margin: 1em;
 }
 nav a {
   font-size: 25px;
+}
+
+.side-bar {
+  height: 100%;
+  width: 7em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 2em;
+  overflow-x: hidden;
+  background-color: yellow;
+}
+.side-bar a {
+  padding: 0.5em 0.5em 0.5em 2em;
+  text-decoration: none;
+  display: block;
 }

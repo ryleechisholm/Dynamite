@@ -6,6 +6,10 @@ import { ExamplesComponent } from './examples/examples.component';
 import { FontsComponent } from './fonts/fonts.component';
 import { IconsComponent } from './icons/icons.component';
 import { HomeComponent } from './home/home.component';
+import {AccordionComponent} from "./comps/accordion/accordion.component";
+import {ButtonsComponent} from "./comps/buttons/buttons.component";
+import {CardComponent} from "./comps/card/card.component";
+import {DropdownComponent} from "./comps/dropdown/dropdown.component";
 
 const routes: Routes = [
   {
@@ -23,7 +27,30 @@ const routes: Routes = [
   },
   {
     path: 'components',
-    component: CompsComponent
+    component: CompsComponent,
+    children: [
+      {
+        path: '',
+        redirectTo: 'accordion',
+        pathMatch: 'full'
+      },
+      {
+        path: 'accordion',
+        component: AccordionComponent
+      },
+      {
+        path: 'buttons',
+        component: ButtonsComponent
+      },
+      {
+        path: 'card',
+        component: CardComponent
+      },
+      {
+        path: 'dropdown',
+        component: DropdownComponent
+      }
+    ]
   },
   {
     path: 'examples',

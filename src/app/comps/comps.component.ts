@@ -12,4 +12,18 @@ export class CompsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openNav() {
+    // @ts-ignore
+    document.getElementById("mySidenav").style.width = "250px";
+    // @ts-ignore
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  closeNav() {
+    // @ts-ignore
+    document.getElementById("mySidenav").style.width = "0";
+    // @ts-ignore
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
 }

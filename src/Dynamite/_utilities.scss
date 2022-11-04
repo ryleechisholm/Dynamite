@@ -1,0 +1,38 @@
+@use 'sass:math';
+
+$utilities: (
+  "padding": (
+    "prefix": "p",
+    "values": (
+      "0": 0,
+      "1": $base-padding,
+      "2": $base-padding * 2
+    )
+  ),
+  "padding-left": (
+    "prefix": "p1",
+    "values": (
+      "0": 0,
+      "1": $base-padding,
+      "2": $base-padding * 2
+    )
+  ),
+  "margin": ()
+);
+
+@each $property, $map in $utilities {
+  $prefix: map-get($map, "prefix");
+  $values: map-get($map, "values");
+
+  @each $k, $v in $values {
+    @if($k == "default") {
+      .#{$prefix} {
+        #{$property}: $v;
+      }
+    } @else {
+      .#{$prefix}-#{$k} {
+        #{$property}: $v;
+      }
+    }
+   }
+}

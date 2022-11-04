@@ -3,6 +3,28 @@ $secondary: #1ac888;
 $error: #d32752;
 $info: #f6c31c;
 
+//color palette
+$colors:  (
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+  "info": $info,
+  "blue": blue,
+  "red": red,
+  "yellow": yellow,
+  "green": green,
+  "orange": orange,
+  "purple": purple,
+  "gray": gray,
+  "black": black,
+  "white": white
+);
+
+@debug map-get($colors, "purple"); //puts color in console on compile
+@debug map-has-key($colors, "secondary");//boolean evaluation
+@debug map-remove($colors, "primary");//logs map after removal
+@debug map-merge($colors, ("pink": pink)); //logs map after addition
+
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;
 
@@ -11,3 +33,7 @@ $base-border-radius: 20px;
 
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 $base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+
+$nav-bar-height: 2em;
