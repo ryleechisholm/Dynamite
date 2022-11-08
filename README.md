@@ -1,3 +1,3 @@
 # Dynamic CSS Library: WIP
-## Combining loved items from bootstrap with components from Tailwind and Animate to make my prefered css library.  Will have changable themes.  Hope I can pull this off lol.
- # IMPORTANT: this is the documentation/show-off repo.  The actual library will just be css/js like any other css library.
+## A css library that changes based on what premade style/color the user chooses!  No longer will every site have to look like the basic bootstrap styles
+## IMPORTANT: this is the documentation/show-off repo.  The actual downloaded content will just be css/js like any other css library.
