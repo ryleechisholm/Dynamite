@@ -23,7 +23,7 @@
     @include btn(#fff);
     border: $base-border-thickness solid $val;
     &:hover {
-      background-color: lighten($val);
+      background-color: lighten($val,5);
     }
   }
   .btn-complement-#{$key} {
