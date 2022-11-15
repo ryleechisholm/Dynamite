@@ -32,9 +32,9 @@
   .navbar-x-item {
     padding: 2vw 1vh;
     &:hover {
-
-      background-color: map-get($colors, "lightblue");
-      box-shadow: 0 0 20px 10px map-get($colors, "lightblue");
+      background-color: lightgray;
+      //background-color: map-get($colors, "lightblue");
+      //box-shadow: 0 0 20px 10px map-get($colors, "lightblue");
     }
   }
 
@@ -51,13 +51,15 @@
   padding: $base-padding;
   width: $sidenav-width;
   height: 100%;
+  background-color: yellow;
   display: block;
 
   .navbar-y-item {
     padding: 0;
     &:hover {
-      background-color: map-get($colors, "lightblue");
-      box-shadow: 0 0 10px 10px map-get($colors, "lightblue");
+      background-color: lightgray;
+      //background-color: map-get($colors, "lightblue");
+      //box-shadow: 0 0 10px 10px map-get($colors, "lightblue");
     }
   }
 }

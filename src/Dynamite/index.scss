@@ -1,13 +1,13 @@
 // variables & functions
 @import 'functions';
-@import "variables";
+@import "styling-sheets/variables";
 
 // base & layout
 @import "base";
 @import 'breakpoints';
 @import 'grid';
 // colors
-@import 'colors';
+//@import 'colors';
 
 //components
 @import 'components/card';
