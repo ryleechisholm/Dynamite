@@ -422,7 +422,7 @@ img {
   text-decoration: underline;
 }
 
-.navbar-x .container, .navbar-x-white .container, .navbar-x-black .container, .navbar-x-6 .container, .navbar-x-5 .container, .navbar-x-4 .container, .navbar-x-3 .container, .navbar-x-2 .container, .navbar-x-1 .container {
+.navbar-x .container, .navbar-x-8 .container, .navbar-x-7 .container, .navbar-x-6 .container, .navbar-x-5 .container, .navbar-x-4 .container, .navbar-x-3 .container, .navbar-x-2 .container, .navbar-x-1 .container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -430,37 +430,37 @@ img {
   box-sizing: border-box;
 }
 
-.navbar-y, .navbar-y-white, .navbar-y-black, .navbar-y-6, .navbar-y-5, .navbar-y-4, .navbar-y-3, .navbar-y-2, .navbar-y-1, .navbar-x, .navbar-x-white, .navbar-x-black, .navbar-x-6, .navbar-x-5, .navbar-x-4, .navbar-x-3, .navbar-x-2, .navbar-x-1 {
+.navbar-y, .navbar-y-8, .navbar-y-7, .navbar-y-6, .navbar-y-5, .navbar-y-4, .navbar-y-3, .navbar-y-2, .navbar-y-1, .navbar-x, .navbar-x-8, .navbar-x-7, .navbar-x-6, .navbar-x-5, .navbar-x-4, .navbar-x-3, .navbar-x-2, .navbar-x-1 {
   margin: 0;
   z-index: 5;
 }
 
-.navbar-x, .navbar-x-white, .navbar-x-black, .navbar-x-6, .navbar-x-5, .navbar-x-4, .navbar-x-3, .navbar-x-2, .navbar-x-1 {
+.navbar-x, .navbar-x-8, .navbar-x-7, .navbar-x-6, .navbar-x-5, .navbar-x-4, .navbar-x-3, .navbar-x-2, .navbar-x-1 {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-.navbar-x .site-title, .navbar-x-white .site-title, .navbar-x-black .site-title, .navbar-x-6 .site-title, .navbar-x-5 .site-title, .navbar-x-4 .site-title, .navbar-x-3 .site-title, .navbar-x-2 .site-title, .navbar-x-1 .site-title {
+.navbar-x .site-title, .navbar-x-8 .site-title, .navbar-x-7 .site-title, .navbar-x-6 .site-title, .navbar-x-5 .site-title, .navbar-x-4 .site-title, .navbar-x-3 .site-title, .navbar-x-2 .site-title, .navbar-x-1 .site-title {
   font-size: 1.5rem;
 }
-.navbar-x .navbar-x-item, .navbar-x-white .navbar-x-item, .navbar-x-black .navbar-x-item, .navbar-x-6 .navbar-x-item, .navbar-x-5 .navbar-x-item, .navbar-x-4 .navbar-x-item, .navbar-x-3 .navbar-x-item, .navbar-x-2 .navbar-x-item, .navbar-x-1 .navbar-x-item {
+.navbar-x .navbar-x-item, .navbar-x-8 .navbar-x-item, .navbar-x-7 .navbar-x-item, .navbar-x-6 .navbar-x-item, .navbar-x-5 .navbar-x-item, .navbar-x-4 .navbar-x-item, .navbar-x-3 .navbar-x-item, .navbar-x-2 .navbar-x-item, .navbar-x-1 .navbar-x-item {
   padding: 2vw 1vh;
 }
-.navbar-x .navbar-x-item:hover, .navbar-x-white .navbar-x-item:hover, .navbar-x-black .navbar-x-item:hover, .navbar-x-6 .navbar-x-item:hover, .navbar-x-5 .navbar-x-item:hover, .navbar-x-4 .navbar-x-item:hover, .navbar-x-3 .navbar-x-item:hover, .navbar-x-2 .navbar-x-item:hover, .navbar-x-1 .navbar-x-item:hover {
+.navbar-x .navbar-x-item:hover, .navbar-x-8 .navbar-x-item:hover, .navbar-x-7 .navbar-x-item:hover, .navbar-x-6 .navbar-x-item:hover, .navbar-x-5 .navbar-x-item:hover, .navbar-x-4 .navbar-x-item:hover, .navbar-x-3 .navbar-x-item:hover, .navbar-x-2 .navbar-x-item:hover, .navbar-x-1 .navbar-x-item:hover {
   background-color: lightgray;
 }
 
-.navbar-y, .navbar-y-white, .navbar-y-black, .navbar-y-6, .navbar-y-5, .navbar-y-4, .navbar-y-3, .navbar-y-2, .navbar-y-1 {
+.navbar-y, .navbar-y-8, .navbar-y-7, .navbar-y-6, .navbar-y-5, .navbar-y-4, .navbar-y-3, .navbar-y-2, .navbar-y-1 {
   padding: 0.75rem;
   width: 100px;
   height: 100%;
   background-color: yellow;
   display: block;
 }
-.navbar-y .navbar-y-item, .navbar-y-white .navbar-y-item, .navbar-y-black .navbar-y-item, .navbar-y-6 .navbar-y-item, .navbar-y-5 .navbar-y-item, .navbar-y-4 .navbar-y-item, .navbar-y-3 .navbar-y-item, .navbar-y-2 .navbar-y-item, .navbar-y-1 .navbar-y-item {
+.navbar-y .navbar-y-item, .navbar-y-8 .navbar-y-item, .navbar-y-7 .navbar-y-item, .navbar-y-6 .navbar-y-item, .navbar-y-5 .navbar-y-item, .navbar-y-4 .navbar-y-item, .navbar-y-3 .navbar-y-item, .navbar-y-2 .navbar-y-item, .navbar-y-1 .navbar-y-item {
   padding: 0;
 }
-.navbar-y .navbar-y-item:hover, .navbar-y-white .navbar-y-item:hover, .navbar-y-black .navbar-y-item:hover, .navbar-y-6 .navbar-y-item:hover, .navbar-y-5 .navbar-y-item:hover, .navbar-y-4 .navbar-y-item:hover, .navbar-y-3 .navbar-y-item:hover, .navbar-y-2 .navbar-y-item:hover, .navbar-y-1 .navbar-y-item:hover {
+.navbar-y .navbar-y-item:hover, .navbar-y-8 .navbar-y-item:hover, .navbar-y-7 .navbar-y-item:hover, .navbar-y-6 .navbar-y-item:hover, .navbar-y-5 .navbar-y-item:hover, .navbar-y-4 .navbar-y-item:hover, .navbar-y-3 .navbar-y-item:hover, .navbar-y-2 .navbar-y-item:hover, .navbar-y-1 .navbar-y-item:hover {
   background-color: lightgray;
 }
 
@@ -536,27 +536,27 @@ img {
   background-color: #1afe49;
 }
 
-.navbar-x-black {
+.navbar-x-7 {
   background-color: black;
 }
 
-.navbar-y-black {
+.navbar-y-7 {
   background-color: black;
 }
 
-.navbox-black {
+.navbox-7 {
   background-color: black;
 }
 
-.navbar-x-white {
+.navbar-x-8 {
   background-color: white;
 }
 
-.navbar-y-white {
+.navbar-y-8 {
   background-color: white;
 }
 
-.navbox-white {
+.navbox-8 {
   background-color: white;
 }
 
@@ -822,7 +822,7 @@ img {
   background-color: #ffb2ef;
 }
 
-.btn-black {
+.btn-7 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -831,11 +831,11 @@ img {
   border-radius: 20px;
   background-color: black;
 }
-.btn-black:hover {
+.btn-7:hover {
   background-color: #0d0d0d;
 }
 
-.btn-outlined-black {
+.btn-outlined-7 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -845,11 +845,11 @@ img {
   background-color: #fff;
   border: 1px solid black;
 }
-.btn-outlined-black:hover {
+.btn-outlined-7:hover {
   background-color: #0d0d0d;
 }
 
-.btn-complement-black {
+.btn-complement-7 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -859,12 +859,12 @@ img {
   background-color: black;
   color: #4d4d4d;
 }
-.btn-complement-black:hover {
+.btn-complement-7:hover {
   color: black;
   background-color: #4d4d4d;
 }
 
-.btn-white {
+.btn-8 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -873,11 +873,11 @@ img {
   border-radius: 20px;
   background-color: white;
 }
-.btn-white:hover {
+.btn-8:hover {
   background-color: white;
 }
 
-.btn-outlined-white {
+.btn-outlined-8 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -887,11 +887,11 @@ img {
   background-color: #fff;
   border: 1px solid white;
 }
-.btn-outlined-white:hover {
+.btn-outlined-8:hover {
   background-color: white;
 }
 
-.btn-complement-white {
+.btn-complement-8 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -901,7 +901,7 @@ img {
   background-color: white;
   color: white;
 }
-.btn-complement-white:hover {
+.btn-complement-8:hover {
   color: white;
   background-color: white;
 }
