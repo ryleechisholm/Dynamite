@@ -1,28 +1,12 @@
-//possible pastel palettes
-//#97cia9
-//#87cfb7
-//#cce2cb
-//#eaeaea
-//#c7dbda
-//#ffe1e9
-//#fdd7c2
-//#f6eac2
-//#ffb8b1
-//#ffdac1
-//#e2f0cb
-//#bsead6
-//#sscdbc
-//#a3e1dc
-//#edeaes
-//#ffdbcc
-//#9ab7d3
-//#f5d2d3
-//#f7e1d3
-//#dfccf1
-//
-//#cce8db
-//#c1d4e3
-//#bev4d6
-//#fadae2
-//#f8b3ca
-//#cc97c1
+$pastel-colors: (
+  "8": #f6eac2,
+  "2": #87cfb7,
+  "14": #a3e1dc,
+  "3": #cce2cb,
+  "17": #9ab7d3,
+  "20": #dfccf1,
+  "10": #ffdac1,
+  "9": #ffb8b1,
+  "25": #f8b3ca,
+  "26": #cc97c1,
+)
